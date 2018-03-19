@@ -252,9 +252,6 @@ case $red in
   done
   echo "${skey}" > disc.cfg
   unset skey
-  sleep 5
-  cat inv 2>/dev/null
-  read -p "Press [Enter] to continue!" asgasg
   Main
  ;;
  "10")
