@@ -33,6 +33,7 @@ $ ./wfbot.sh
  5. Click on 'Token:Click to revel' and note-down token.
  6. Open console by ./wfbot.sh , choose option 9 and enter token.
  7. Choose option 10 'Restart discord bot'.
+ 8. Discord bot inite link "https://discordapp.com/oauth2/authorize?client_id=BOT_CLIENT_ID&scope=bot&permissions=402705488"
  
 ### Console commands
  1. List installed bots - It will show current list of bots in database.
