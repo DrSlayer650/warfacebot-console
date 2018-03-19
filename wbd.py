@@ -62,7 +62,8 @@ def stats():
     ndata = re.sub(' +', ' ', data)
     yield from bot.say('```'+ ndata + '```')
     os.remove('stat')
-   
-      
-bot.run('Mz4MDg2MjA2NzUzNTM4MDQ4.DME2gg.QVOwbMJAuef7d87VS_0OVKm6JQw')
+with open('disc.cfg', 'r') as myfile:
+   token=myfile.read().replace('\n', '')
+bot.run(token)
+ 
 
