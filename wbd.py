@@ -14,9 +14,6 @@ def on_ready():
   print(bot.user.name)
   print(bot.user.id)
   print('Bot Invite Link => https://discordapp.com/oauth2/authorize?&client_id='+bot.user.id+'&scope=bot&permissions=0' )
-f = open('inv','w')
-f.write('Bot Invite Link => https://discordapp.com/oauth2/authorize?&client_id='+bot.user.id+'&scope=bot&permissions=0')
-f.close()
 @bot.command()
 @asyncio.coroutine 
 def add(message):
